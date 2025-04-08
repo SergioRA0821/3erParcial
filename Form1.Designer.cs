@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.btnIngresar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txbUsuario = new System.Windows.Forms.TextBox();
+            this.txbContra = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -43,20 +43,21 @@
             this.btnIngresar.TabIndex = 0;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // textBox1
+            // txbUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(326, 127);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 22);
-            this.textBox1.TabIndex = 1;
+            this.txbUsuario.Location = new System.Drawing.Point(326, 127);
+            this.txbUsuario.Name = "txbUsuario";
+            this.txbUsuario.Size = new System.Drawing.Size(156, 22);
+            this.txbUsuario.TabIndex = 1;
             // 
-            // textBox2
+            // txbContra
             // 
-            this.textBox2.Location = new System.Drawing.Point(326, 243);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(156, 22);
-            this.textBox2.TabIndex = 2;
+            this.txbContra.Location = new System.Drawing.Point(326, 243);
+            this.txbContra.Name = "txbContra";
+            this.txbContra.Size = new System.Drawing.Size(156, 22);
+            this.txbContra.TabIndex = 2;
             // 
             // label1
             // 
@@ -84,8 +85,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbContra);
+            this.Controls.Add(this.txbUsuario);
             this.Controls.Add(this.btnIngresar);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -97,8 +98,8 @@
         #endregion
 
         private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txbUsuario;
+        private System.Windows.Forms.TextBox txbContra;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
