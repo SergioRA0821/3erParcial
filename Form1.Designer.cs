@@ -37,9 +37,10 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(326, 317);
+            this.btnIngresar.Location = new System.Drawing.Point(244, 258);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(103, 38);
+            this.btnIngresar.Size = new System.Drawing.Size(77, 31);
             this.btnIngresar.TabIndex = 0;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -47,24 +48,28 @@
             // 
             // txbUsuario
             // 
-            this.txbUsuario.Location = new System.Drawing.Point(326, 127);
+            this.txbUsuario.Location = new System.Drawing.Point(244, 103);
+            this.txbUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbUsuario.Name = "txbUsuario";
-            this.txbUsuario.Size = new System.Drawing.Size(156, 22);
+            this.txbUsuario.Size = new System.Drawing.Size(118, 20);
             this.txbUsuario.TabIndex = 1;
             // 
             // txbContra
             // 
-            this.txbContra.Location = new System.Drawing.Point(326, 243);
+            this.txbContra.Location = new System.Drawing.Point(244, 197);
+            this.txbContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbContra.Name = "txbContra";
-            this.txbContra.Size = new System.Drawing.Size(156, 22);
+            this.txbContra.PasswordChar = '*';
+            this.txbContra.Size = new System.Drawing.Size(118, 20);
             this.txbContra.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(323, 96);
+            this.label1.Location = new System.Drawing.Point(242, 78);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 16);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Usuario";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -72,22 +77,24 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(323, 202);
+            this.label2.Location = new System.Drawing.Point(242, 164);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Contraseña";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txbContra);
             this.Controls.Add(this.txbUsuario);
             this.Controls.Add(this.btnIngresar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
