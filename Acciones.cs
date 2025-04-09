@@ -10,8 +10,8 @@ namespace _3erParcial
     {
         List<PropiedadExtra> ListaConsola = new List<PropiedadExtra>
         {
-            new PropiedadExtra(1, "Sergio", DateTime.Today, true, "Verde"),
-            new PropiedadExtra(2, "Isma", DateTime.Now, false, "Azul")
+            new PropiedadExtra(1, "Xbox 360", DateTime.Today, true, "Verde"),
+            new PropiedadExtra(2, "Nintendo Switch", DateTime.Now, false, "Azul")
         };
         public List<PropiedadExtra> MostrarInfo()
         {

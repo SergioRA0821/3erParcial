@@ -53,7 +53,7 @@
             // 
             this.dgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgDatos.Location = new System.Drawing.Point(29, 10);
-            this.dgDatos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgDatos.Margin = new System.Windows.Forms.Padding(2);
             this.dgDatos.Name = "dgDatos";
             this.dgDatos.RowHeadersWidth = 51;
             this.dgDatos.RowTemplate.Height = 24;
@@ -73,7 +73,7 @@
             // txbID
             // 
             this.txbID.Location = new System.Drawing.Point(25, 324);
-            this.txbID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbID.Margin = new System.Windows.Forms.Padding(2);
             this.txbID.Name = "txbID";
             this.txbID.Size = new System.Drawing.Size(76, 20);
             this.txbID.TabIndex = 2;
@@ -81,7 +81,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(33, 362);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(56, 19);
             this.btnEliminar.TabIndex = 3;
@@ -92,7 +92,7 @@
             // btnMostrar
             // 
             this.btnMostrar.Location = new System.Drawing.Point(245, 283);
-            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(56, 32);
             this.btnMostrar.TabIndex = 4;
@@ -103,7 +103,7 @@
             // btnLimpiar
             // 
             this.btnLimpiar.Location = new System.Drawing.Point(466, 284);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(56, 31);
             this.btnLimpiar.TabIndex = 5;
@@ -114,7 +114,7 @@
             // txbID2
             // 
             this.txbID2.Location = new System.Drawing.Point(583, 54);
-            this.txbID2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbID2.Margin = new System.Windows.Forms.Padding(2);
             this.txbID2.Name = "txbID2";
             this.txbID2.Size = new System.Drawing.Size(108, 20);
             this.txbID2.TabIndex = 6;
@@ -122,7 +122,7 @@
             // txbNombre
             // 
             this.txbNombre.Location = new System.Drawing.Point(583, 120);
-            this.txbNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(108, 20);
             this.txbNombre.TabIndex = 7;
@@ -130,7 +130,7 @@
             // txbFecha
             // 
             this.txbFecha.Location = new System.Drawing.Point(583, 191);
-            this.txbFecha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbFecha.Margin = new System.Windows.Forms.Padding(2);
             this.txbFecha.Name = "txbFecha";
             this.txbFecha.Size = new System.Drawing.Size(108, 20);
             this.txbFecha.TabIndex = 8;
@@ -138,7 +138,7 @@
             // txbActivo
             // 
             this.txbActivo.Location = new System.Drawing.Point(583, 266);
-            this.txbActivo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbActivo.Margin = new System.Windows.Forms.Padding(2);
             this.txbActivo.Name = "txbActivo";
             this.txbActivo.Size = new System.Drawing.Size(108, 20);
             this.txbActivo.TabIndex = 9;
@@ -146,7 +146,7 @@
             // txbColor
             // 
             this.txbColor.Location = new System.Drawing.Point(583, 339);
-            this.txbColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbColor.Margin = new System.Windows.Forms.Padding(2);
             this.txbColor.Name = "txbColor";
             this.txbColor.Size = new System.Drawing.Size(108, 20);
             this.txbColor.TabIndex = 10;
@@ -154,7 +154,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(532, 413);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(90, 31);
             this.btnAgregar.TabIndex = 11;
@@ -165,7 +165,7 @@
             // btnActualizar
             // 
             this.btnActualizar.Location = new System.Drawing.Point(626, 413);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(90, 31);
             this.btnActualizar.TabIndex = 12;
@@ -189,9 +189,9 @@
             this.label3.Location = new System.Drawing.Point(580, 105);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.Size = new System.Drawing.Size(110, 13);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Nombre";
+            this.label3.Text = "Nombre de la consola";
             // 
             // label4
             // 
@@ -246,7 +246,7 @@
             this.Controls.Add(this.txbID);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgDatos);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Inicio";
             this.Text = "Inicio";
             ((System.ComponentModel.ISupportInitialize)(this.dgDatos)).EndInit();
